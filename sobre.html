@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Site sobre o filme do Logan">
+    <meta name="keywords" content="wolverine, logan, xmen">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+
+    <title>Logan - O Filme</title>
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/modernizr.js"></script>
+
+    <script type="text/javascript">
+      new WOW().init();
+
+      function mostrarMenu() {
+			     $("nav").toggle();
+		  }
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <a href="index.html" title="Logan - Página Inicial" id="logo">
+        <img src="images/logo.jpg" alt="Logan" title="Logan">
+      </a>
+
+      <a href="javascript:mostrarMenu()" title="Menu" id="menu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" title="Home">Home</a>
+          </li>
+          <li>
+            <a href="sobre.html" title="Sobre">Sobre</a>
+          </li>
+          <li>
+            <a href="filmes.html" title="Filmes">Filmes</a>
+          </li>
+          <li>
+            <a href="contato.html" title="Contato">Contato</a>
+          </li>
+        </ul>
+      </nav> <!-- Fim do Nav -->
+    </header> <!-- Fim do Hearder -->
+
+    <main class="container top">
+      <h1 class="center">Sobre o Wolverine</h1>
+      <div class="col1 left wow bounceInLeft" data-wow-delay="0.2s">
+        <img class="img" src="images/wolverine.jpg" alt="Wolverine" title="Wolverine">
+      </div>
+      <div class="col2 right wow bounceInRight"data-wow-delay="0.5s">
+        <p>
+          Wolverine é um herói de histórias em quadrinhos publicados pela Marvel Comics. A primeira aparição do personagem foi na revista de HQ Incredible Hulk #180 (outubro de 1974) e foi criado pelo escritor Len Wein e pelo diretor de arte John Romita, que desenvolveu o personagem. Foi desenhado pela primeira vez para publicação por Herb Trimpe.
+        </p>
+        <p>
+          Nascido James Howlett e comumente conhecido como Logan, Wolverine é um mutante que possui sentidos de animais aguçados, capacidades físicas melhoradas e poderosa capacidade regenerativa, conhecida como fator de cura. Ele foi descrito várias vezes como um membro dos X-Men, Tropa Alfa, e dos Vingadores.
+        </p>
+      </div>
+      <iframe width="100%" height="480" src="https://www.youtube.com/embed/RWSuAC9CYxo" frameborder="0" allowfullscreen></iframe>
+      <div class="clear"></div>
+    </main> <!-- Fim do Conteudo -->
+
+    <footer class="center">
+      <a href="http://facebook.com/macklyster" title="Facebook">
+        <i class="fa fa-facebook-official"></i>
+      </a>
+      <a href="http://github.com/macklyster" title="Github">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="http://twitter.com/macklyster" title="Twitter">
+        <i class="fa fa-twitter-square"></i>
+      </a>
+      <p>Desenvolvido por Macklyster M Marteres</p>
+    </footer>
+  </body>
+</html>

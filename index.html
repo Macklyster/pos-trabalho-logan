@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Site sobre o filme do Logan">
+    <meta name="keywords" content="wolverine, logan, xmen">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+
+    <title>Logan - O Filme</title>
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/modernizr.js"></script>
+
+    <script type="text/javascript">
+      new WOW().init();
+
+      function mostrarMenu() {
+			     $("nav").toggle();
+		  }
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <a href="index.html" title="Logan - Página Inicial" id="logo">
+        <img src="images/logo.jpg" alt="Logan" title="Logan">
+      </a>
+
+      <a href="javascript:mostrarMenu()" title="Menu" id="menu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" title="Home">Home</a>
+          </li>
+          <li>
+            <a href="sobre.html" title="Sobre">Sobre</a>
+          </li>
+          <li>
+            <a href="filmes.html" title="Filmes">Filmes</a>
+          </li>
+          <li>
+            <a href="contato.html" title="Contato">Contato</a>
+          </li>
+        </ul>
+      </nav> <!-- Fim do Nav -->
+    </header> <!-- Fim do Hearder -->
+
+    <div id="banner">
+      <img src="images/banner1.jpg" alt="Filme do Logan" title="Filme do Logan">
+
+      <div class="texto wow fadeInDown">
+        <p>02 de Março nos Cinemas</p>
+        <h1>Hugh Jackman em Logan</h1>
+        <p>
+          <a href="sobre.html" title="Sobre" class="btn">
+            Mais sobre o Filme
+          </a>
+        </p>
+      </div> <!-- Fim do Banner -->
+
+    <main class="container">
+      <h1 class="center wow fadeIn" data-wow-duration="1.7s">Logan: 02 de Março nos Cinemas</h1>
+      <h2 class="center wow fadeIn" data-wow-duration="1.7s">Acompanhe a última jornada do Wolverine</h2>
+
+      <img class="img wow fadeIn"data-wow-duration="1.7s" src="images/banner2.jpg" alt="Logan" title="Logan">
+      <p>
+        Logan é o último filme de Hugh Jackman no papel de Wolverine. Ele se passa anos depois dos filmes dos X-Men e mostra Logan
+        encontrando X-23 (Dafne Keen), uma garota com poderes semelhantes ao dele. James Mangold é o diretor e Patrick Stewart
+        retornará como Professor Xavier. O longa chega aos cinemas em 2 de março.
+      </p>
+    </main> <!-- Fim do Conteudo -->
+
+    <div id="filmes">
+      <div class="container">
+        <h2 class="center">Filmes do Wolverine</h2>
+        <div class="filme wow fadeIn" data-wow-delay="0.5s">
+          <a href="filmes.html" title="X-Mes Origens">
+            <img class="img" src="images/origins.jpg" alt="Origins" title="Origins">
+          </a>
+        </div>
+        <div class="filme wow fadeIn" data-wow-delay="1s">
+          <a href="filmes.html" title="The Wolverine">
+            <img class="img" src="images/imortal.jpg" alt="The Wolverine" title="The Wolverine">
+          </a>
+        </div>
+        <div class="filme wow fadeIn" data-wow-delay="1.5s">
+          <a href="filmes.html" title="Logan">
+            <img class="img" src="images/logan.jpg" alt="Logan" title="Logan">
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="center">
+      <a href="http://facebook.com/macklyster" title="Facebook">
+        <i class="fa fa-facebook-official"></i>
+      </a>
+      <a href="http://github.com/macklyster" title="Github">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="http://twitter.com/macklyster" title="Twitter">
+        <i class="fa fa-twitter-square"></i>
+      </a>
+      <p>Desenvolvido por Macklyster M Marteres</p>
+    </footer>
+  </body>
+</html>

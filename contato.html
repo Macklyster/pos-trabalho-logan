@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Site sobre o filme do Logan">
+    <meta name="keywords" content="wolverine, logan, xmen">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+
+    <title>Logan - O Filme</title>
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/modernizr.js"></script>
+
+    <script type="text/javascript">
+      new WOW().init();
+
+      function mostrarMenu() {
+			     $("nav").toggle();
+		  }
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <a href="index.html" title="Logan - Página Inicial" id="logo">
+        <img src="images/logo.jpg" alt="Logan" title="Logan">
+      </a>
+
+      <a href="javascript:mostrarMenu()" title="Menu" id="menu">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" title="Home">Home</a>
+          </li>
+          <li>
+            <a href="sobre.html" title="Sobre">Sobre</a>
+          </li>
+          <li>
+            <a href="filmes.html" title="Filmes">Filmes</a>
+          </li>
+          <li>
+            <a href="contato.html" title="Contato">Contato</a>
+          </li>
+        </ul>
+      </nav> <!-- Fim do Nav -->
+    </header> <!-- Fim do Hearder -->
+
+    <main class="container top">
+      <h1 class="center">ENTRE EM CONTATO</h1>
+    		<form id="formalario" name="form1" method="form1" autocomplete="off">
+    			<label for="nome"><p>Preencha seu nome:</p></label>
+          <br  />
+    			<input type="text" name="nome" required>
+    			<div class="clear"></div>
+    			<label for="email"><p>Preencha seu e-mail:</p></label>
+          <br />
+    			<input type="email" name="email" required>
+    			<div class="clear"></div>
+    			<label for="mensagem"><p>Mensagem:</p></label>
+          <br />
+    			<textarea name="mensagem" rows="5" required></textarea>
+    			<div class="clear"></div>
+    			<button class="btn-envia" type="submit">
+    				<i class="fa fa-check"></i> Enviar Mensagem
+    			</button>
+    		</form>
+      <div class="clear"></div>
+    </main> <!-- Fim do Conteudo -->
+
+    <footer class="center">
+      <a href="http://facebook.com/macklyster" title="Facebook">
+        <i class="fa fa-facebook-official"></i>
+      </a>
+      <a href="http://github.com/macklyster" title="Github">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="http://twitter.com/macklyster" title="Twitter">
+        <i class="fa fa-twitter-square"></i>
+      </a>
+      <p>Desenvolvido por Macklyster M Marteres</p>
+    </footer>
+  </body>
+</html>
